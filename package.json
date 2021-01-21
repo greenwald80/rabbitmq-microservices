@@ -1,0 +1,17 @@
+{
+  "name": "rabbitmq-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gw": "nodemon gateway.js",
+    "ms": "nodemon microservice.js",
+    "dev":"start nodemon gateway.js && start nodemon microservice.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micromq": "^3.0.2"
+  }
+}
